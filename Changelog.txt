@@ -1,9 +1,15 @@
 Changelog
 
+In-game:
+- Removed custom daedric tile set, as it was incompatible with retexture mods and had no real benefit. Regular daedric tileset is used instead.
+
 Project Structure
 - Merged TU2 project and Patch Project together.
 
 Assets
 - Sanitized texture filepaths for all meshes.
 - Used TESFiles to find and remove unused assets (150 files), reducing package size.
-- Removed Better Bodies meshes which could overwrite user mod assets (original BB or other BB-like mods). 
+- Removed Better Bodies meshes which could overwrite user mod assets (original BB or other BB-like mods) and relocated to subfolder.
+- Removed some invalid NIF files which could crash the game (Why is an MP3 being called a NIF anyways, Qarl?)
+- Optimized textures via Ordenador. Reduced package size by ~580MB.
+- Optimized meshes by reducing duplicate vertices in many meshes.
