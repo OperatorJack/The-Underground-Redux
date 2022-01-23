@@ -2,6 +2,9 @@ Changelog
 
 In-game:
 - Removed custom daedric tile set, as it was incompatible with retexture mods and had no real benefit. Regular daedric tileset is used instead.
+- Improved filtering on many topics so that TU2 topics aren't permanently seen after the mod is completed.
+- Removed end-game fireworks.
+- Fixed infinite spider spawns, such that they will no longer spawn after the spider laboratory is destroyed.
 
 Project Structure
 - Merged TU2 project and Patch Project together.
