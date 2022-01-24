@@ -1,9 +1,0 @@
-Changelog
-
-Project Structure
-- Merged TU2 project and Patch Project together.
-
-Assets
-- Sanitized texture filepaths for all meshes.
-- Used TESFiles to find and remove unused assets (150 files), reducing package size.
-- Removed Better Bodies meshes which could overwrite user mod assets (original BB or other BB-like mods). 
